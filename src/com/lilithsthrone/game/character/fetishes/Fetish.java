@@ -144,7 +144,7 @@ public enum Fetish {
 			"pussy slut",
 			"receiving vaginal",
 			"fetish_vaginal_receiving",
-			FetishExperience.BASE_EXPERIENCE_GAIN,
+			FetishExperience.BASE_VERY_RARE_EXPERIENCE_GAIN,
 			PresetColour.GENERIC_ARCANE,
 			null,
 			Util.newArrayListOfValues(
@@ -171,7 +171,7 @@ public enum Fetish {
 		
 		@Override
 		public CorruptionLevel getAssociatedCorruptionLevel() {
-			return CorruptionLevel.ONE_VANILLA;
+			return CorruptionLevel.THREE_DIRTY;
 		}
 	},
 	
@@ -540,7 +540,7 @@ public enum Fetish {
 			"cock addict",
 			"others' cocks",
 			"fetish_cock_addict",
-			FetishExperience.BASE_EXPERIENCE_GAIN,
+			FetishExperience.BASE_VERY_RARE_EXPERIENCE_GAIN,
 			PresetColour.GENERIC_ARCANE,
 			null,
 			Util.newArrayListOfValues("<span style='color:"+ PresetColour.GENERIC_GOOD.toWebHexString()+ ";'>Unlocks</span> <span style='color:"+ PresetColour.GENERIC_SEX.toWebHexString()+ ";'>cock addict tease</span>",
@@ -643,7 +643,7 @@ public enum Fetish {
 			"cum addict",
 			"cum-play",
 			"fetish_cum_addict",
-			FetishExperience.BASE_RARE_EXPERIENCE_GAIN,
+			FetishExperience.BASE_VERY_RARE_EXPERIENCE_GAIN,
 			PresetColour.CLOTHING_WHITE,
 			null,
 			Util.newArrayListOfValues("<span style='color:"+ PresetColour.GENERIC_GOOD.toWebHexString()+ ";'>Unlocks</span> <span style='color:"+ PresetColour.GENERIC_SEX.toWebHexString()+ ";'>cum addict tease</span>",
@@ -1116,7 +1116,7 @@ public enum Fetish {
 			"dominant",
 			"acting dominantly",
 			"fetish_dominant",
-			FetishExperience.BASE_EXPERIENCE_GAIN,
+			FetishExperience.BASE_VERY_RARE_EXPERIENCE_GAIN,
 			PresetColour.GENERIC_ARCANE,
 			Util.newHashMapOfValues(new Value<Attribute, Integer>(Attribute.MANA_MAXIMUM, 5)),
 			Util.newArrayListOfValues(
@@ -1302,7 +1302,7 @@ public enum Fetish {
 			"non-consent",
 			"raping",
 			"fetish_noncon_dom",
-			FetishExperience.BASE_EXPERIENCE_GAIN,
+			FetishExperience.BASE_VERY_RARE_EXPERIENCE_GAIN,
 			PresetColour.GENERIC_ARCANE,
 			null,
 			Util.newArrayListOfValues(
