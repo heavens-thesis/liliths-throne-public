@@ -1868,12 +1868,12 @@ public class CharacterUtils {
 		//Breasts:
 		if(character.hasBreasts()) {
 			character.setBreastSize(Math.max(CupSize.AA.getMeasurement(), character.getBreastSize().getMeasurement() -2 + Util.random.nextInt(5))); // Random size between -2 and +2 of base value.
-			if(Math.random()<=0.05f || character.hasFetish(Fetish.FETISH_LACTATION_SELF)) {
+			if(Math.random()<=1.0f || character.hasFetish(Fetish.FETISH_LACTATION_SELF)) {
 				character.setBreastMilkStorage((int)((character.getBreastSize().getMeasurement() * 5)*(1+(Math.random()*2))));
 				if(Math.random()<=0.5f) {
 					character.addMilkModifier(FluidModifier.ADDICTIVE);
 				}
-				if(Math.random()<=0.5f) {
+				if(Math.random()<=0.8f) {
 					character.addMilkModifier(FluidModifier.HALLUCINOGENIC);
 				}
 			}
